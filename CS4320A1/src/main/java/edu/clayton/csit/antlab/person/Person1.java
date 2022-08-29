@@ -8,8 +8,8 @@ package edu.clayton.csit.antlab.person;
  *  @author Qu
  *  @version 1.1
  */
-public class Person1 {
   /** Holds the persons real name */
+  public class Person1 {
   private String name;
   	/**
 	 * The constructor, takes in the persons
