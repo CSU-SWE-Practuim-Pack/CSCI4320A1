@@ -5,7 +5,7 @@ package edu.clayton.csit.antlab.person;
  *  returns their name and a
  *  modified string 
  *
- * @author Chaz Walton
+ * @author Chaz W
  * @version 1.1
  */
 public class Person2 {
