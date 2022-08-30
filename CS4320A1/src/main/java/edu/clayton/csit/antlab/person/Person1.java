@@ -1,11 +1,11 @@
 package edu.clayton.csit.antlab.person;
 
-/**
- *  A simple class for person 1
- *  returns their name and a
- *  modified string 
- *  
- *  @author Qu
+/*
+   A simple class for person 1
+   returns their name and a
+   modified string
+
+   @author Darnel Castor
  *  @version 1.1
  */
   /** Holds the persons real name */
