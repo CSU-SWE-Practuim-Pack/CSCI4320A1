@@ -30,8 +30,12 @@ package edu.clayton.csit.antlab.person;
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 1 put your implementation here
-	  return null;
+		// loop to reverse the string
+		String str = "";
+		for (int i = input.length() - 1; i >= 0; i--) {
+			str += input.charAt(i);
+		}
+	  return str;
 	}
 	
 	/**
