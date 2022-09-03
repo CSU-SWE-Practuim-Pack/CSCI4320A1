@@ -1,15 +1,15 @@
 package edu.clayton.csit.antlab.person;
 
-/**
- *  A simple class for person 1
- *  returns their name and a
- *  modified string 
- *  
- *  @author Qu
+/*
+   A simple class for person 1
+   returns their name and a
+   modified string
+
+   @author Darnel Castor
  *  @version 1.1
  */
-public class Person1 {
   /** Holds the persons real name */
+  public class Person1 {
   private String name;
   	/**
 	 * The constructor, takes in the persons
@@ -30,8 +30,12 @@ public class Person1 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 1 put your implementation here
-	  return null;
+		// loop to reverse the string
+		String str = "";
+		for (int i = input.length() - 1; i >= 0; i--) {
+			str += input.charAt(i);
+		}
+	  return str;
 	}
 	
 	/**
