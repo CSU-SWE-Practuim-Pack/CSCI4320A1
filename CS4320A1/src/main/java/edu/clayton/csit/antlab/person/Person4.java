@@ -31,7 +31,14 @@ public class Person4 {
      */
     private String calc(String input) {
       //Person 4 put your implementation here
-      return null;
+      //return null;
+      System.out.print(input + " --> ");
+      for (int i=0;i<input.length();i++){
+        char zz = input.charAt(i);
+        System.out.print(++zz);
+      }
+      System.out.print(" ");
+      return input;
     }
     
     /**
@@ -43,7 +50,7 @@ public class Person4 {
      *         object
      */
     public String toString(String input) {
-      return name + calc(input);
+      return " [ This is " + name + " " + calc(input) + " ] ";
     }
 
 }
